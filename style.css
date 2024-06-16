@@ -1,0 +1,194 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 63%;
+    margin: 0 auto;
+}
+.intro{
+    height: 250px;
+    background-image: url(wave-haikei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6px;
+    display: flex;
+padding-left:25px ;
+    align-items: center;
+}
+.intro h1{
+    color: white;
+    font-size: 3rem;
+    margin-left: 90px;
+    
+}
+.intro span{
+    color: aliceblue;
+    font-size: 1.5rem;
+    display: block;
+
+
+}
+aside{
+
+float: left;
+margin-top:10px ;
+margin-right: 25px;
+padding-right: 5px;
+padding-left: 5px;
+
+}
+aside hr{
+    color:black;
+    background-color: black;
+    height: 1.5px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.first{
+    padding:2px;
+    align-items:center;
+    margin-bottom: 18px;
+    font-size: 14px;   
+}
+
+.first i{
+    margin: 2px;
+}
+ 
+.head
+{
+    color: black;
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom:3px;
+    margin-left: 10px;
+}
+.front{
+    
+    font-size: 14px;
+    color: black;
+font-weight: 550;
+}
+li span{
+    font-weight:500;
+    
+}
+.heading{
+    font-weight: 550;
+    display: inline-block;
+    width:10rem ;
+}
+ li{
+
+   list-style-type: none;
+    margin-top: 7px;
+   
+}
+.second{
+    align-items: center;
+    padding: 2px;
+    margin-bottom: 18px;
+}
+
+.second span{
+    margin-bottom: 0px;
+}
+progress{
+    height: 8px;
+
+    background-color: gray;
+    color:#082652;
+    border: 0px none;
+    border-radius: 5px;
+}
+progress::-webkit-progress-bar{
+    background-color:lightgrey;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+progress::-webkit-progress-value{
+    background-color:#082652;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+progress::-moz-progress-bar{
+    background-color:#082652;
+}
+.progress-sec span{
+    font-size: 15px;
+    display: block;
+}
+.third{
+    align-items: center;
+    padding: 2px;
+    margin-bottom: 18px;
+}
+
+.fourth{
+    align-items: center;
+    padding: 2px;
+}
+
+.progress-sec {
+    margin-top: 16px;
+}
+main{
+    margin-top: 13px;
+}
+main hr{
+    color:black;
+    background-color: black;
+    height: 2px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.top{
+    
+    padding-left: 10px;
+    margin-bottom: 35px;
+    line-height: 22px;
+    margin-top: 7px;
+
+}
+
+.text1{
+    
+    font-size: 14px;
+    color: black;
+}
+
+
+table{
+    margin-top: 15px;
+    font-size:13px;
+    line-height:20px ;
+    margin-bottom: 20px;
+}
+
+
+.last-tab tr{
+padding-top: 50px;
+}
+.last-tab td{
+    width:200px;
+}
+.last-tab{
+    height:250px;
+    margin-bottom:18px;
+    margin-top:8px;
+}
+@media all and (max-width:700px) {
+   
+    .intro h1{
+        font-size:2rem ;
+        margin-left: 0px;
+        
+    }
+    .intro {
+        height:320px ;
+        width: 80%;
+        display: block;
+    }
+}
