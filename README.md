@@ -57,5 +57,5 @@ git checkout branch-name
 ### Merge a Branch:
 git merge branch-name
 
-## Conclusion
+# Conclusion
 You've now set up Git and GitHub, cloned a repository, added files, committed changes, and pushed those changes to GitHub. This guide covered the basics, but Git and GitHub have many more features to explore. For more information, check out the Git documentation and GitHub Guides.
